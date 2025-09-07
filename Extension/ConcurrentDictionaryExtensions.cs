@@ -1,0 +1,20 @@
+﻿using System.Collections.Concurrent;
+
+namespace M56X.Core.Extension
+{
+    /// <summary>
+    /// 并发字典扩展
+    /// </summary>
+    public static class ConcurrentDictionaryExtensions
+    {
+        /// <summary>
+        /// 从并发字典中删除
+        /// </summary>
+        /// <typeparam name="TKey"></typeparam>
+        /// <typeparam name="TValue"></typeparam>
+        /// <param name="dict"></param>
+        /// <param name="key"></param>
+        /// <returns></returns>
+        public static bool Remove<TKey, TValue>(this ConcurrentDictionary<TKey, TValue> dict, TKey key) where TKey : notnull => dict.TryRemove(key, out _);
+    }
+}

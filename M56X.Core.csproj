@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net9.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+		<AssemblyTitle>M56X基础库</AssemblyTitle>
+		<Company>M56X.COM</Company>
+		<Copyright>©2002-2025 Geekerbear</Copyright>
+		<Version>1.0.63</Version>
+		<NoWarn>IL2026;IL3050;</NoWarn>
+		<OutputType>Library</OutputType>
+		<PublishAot>true</PublishAot>
+		<EnableMsgPackAot>true</EnableMsgPackAot>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Compile Remove="Collections\**" />
+		<EmbeddedResource Remove="Collections\**" />
+		<None Remove="Collections\**" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="CommunityToolkit.Mvvm" Version="8.4.0" />
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="9.0.8" />
+		<PackageReference Include="Microsoft.Extensions.Logging" Version="9.0.8" />
+		<PackageReference Include="Microsoft.Extensions.Logging.TraceSource" Version="9.0.8" />
+		<PackageReference Include="Serilog" Version="4.3.0" />
+		<PackageReference Include="Serilog.Extensions.Logging" Version="9.0.2" />
+		<PackageReference Include="Serilog.Sinks.Console" Version="6.0.0" />
+		<PackageReference Include="Serilog.Sinks.File" Version="7.0.0" />
+		<PackageReference Include="System.Runtime.Caching" Version="9.0.8" />
+		<PackageReference Include="Google.Protobuf" Version="3.32.0" />
+		<PackageReference Include="TimeCrontab" Version="3.7.0" />
+		<!--<RdXmlFile Include="rd.xml" />-->
+	</ItemGroup>
+
+</Project>

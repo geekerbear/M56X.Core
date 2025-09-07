@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Directives>
+	<Application>
+		<Assembly Name="System.Drawing" Dynamic="Required All"/>
+		<!--<Assembly Name="System.Runtime.Caching" Dynamic="Required All" />-->
+		<Assembly Name="Serilog" Dynamic="Required All" />
+		<Assembly Name="Serilog.Sinks.Console" Dynamic="Required All" />
+		<Assembly Name="Serilog.Sinks.File" Dynamic="Required All" />
+		<Assembly Name="Serilog.Extensions.Logging" Dynamic="Required All" />
+		<Assembly Name="MessagePack" Dynamic="Required All"/>
+		<Assembly Name="Google.Protobuf" Dynamic="Required All" />
+		<Assembly Name="M56X.Core" Dynamic="Required All"/>
+	</Application>
+</Directives>
