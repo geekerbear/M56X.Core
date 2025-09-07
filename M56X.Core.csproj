@@ -23,6 +23,7 @@
 
 	<ItemGroup>
 		<PackageReference Include="CommunityToolkit.Mvvm" Version="8.4.0" />
+		<PackageReference Include="EasyCompressor" Version="2.1.0" />
 		<PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="9.0.8" />
 		<PackageReference Include="Microsoft.Extensions.Logging" Version="9.0.8" />
 		<PackageReference Include="Microsoft.Extensions.Logging.TraceSource" Version="9.0.8" />
