@@ -8,7 +8,7 @@
 		<AssemblyTitle>M56X基础库</AssemblyTitle>
 		<Company>M56X.COM</Company>
 		<Copyright>©2002-2025 Geekerbear</Copyright>
-		<Version>1.0.63</Version>
+		<Version>1.0.64</Version>
 		<NoWarn>IL2026;IL3050;</NoWarn>
 		<OutputType>Library</OutputType>
 		<PublishAot>true</PublishAot>
