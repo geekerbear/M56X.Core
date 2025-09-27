@@ -24,7 +24,6 @@ namespace M56X.Core.Json
     [JsonSerializable(typeof(NetStatistics))]
 
     [JsonSerializable(typeof(Task))]
-    [JsonSerializable(typeof(Task<>))]
 
     [JsonSerializable(typeof(Enum))]
     [JsonSerializable(typeof(ValueTuple))]
